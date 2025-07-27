@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rick and Morty - Buscador</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Rick and Morty Explorer</h1>
+    <div class="filters">
+      <input type="text" id="name" placeholder="Nombre..." />
+      <select id="status">
+        <option value="">Estado</option>
+        <option value="alive">Vivo</option>
+        <option value="dead">Muerto</option>
+        <option value="unknown">Desconocido</option>
+      </select>
+      <select id="gender">
+        <option value="">Género</option>
+        <option value="female">Femenino</option>
+        <option value="male">Masculino</option>
+        <option value="genderless">Sin género</option>
+        <option value="unknown">Desconocido</option>
+      </select>
+      <button id="filterBtn">Filtrar</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="characters" class="cards-container"></div>
+    <div class="pagination">
+      <button id="prevBtn" disabled>Anterior</button>
+      <button id="nextBtn" disabled>Siguiente</button>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
