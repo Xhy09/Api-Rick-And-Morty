@@ -10,7 +10,7 @@ SPA que permite buscar personajes de Rick and Morty usando filtros y paginación
 - Implementado con HTML, CSS y JavaScript moderno (ES6+).
 - ## 📹 Demostración en video
 
-https://drive.google.com/file/d/1c4QOy8BMi_ekmy8QBE0EQqFg5MaslPEH/view?usp=sharing
+https://youtu.be/jexERYysqS4
 
 ## 🔗 API utilizada
 
